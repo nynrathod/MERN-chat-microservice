@@ -1,0 +1,40 @@
+Chat Services
+	send msg
+	receive msg
+	get past messages
+	listConversations
+
+
+	schema:
+		_id: conversation id
+		sender_id
+		receiver_id
+		timestamp
+
+
+presense
+	status change
+	istyping
+	isOnline
+	last seen
+	last seen history
+
+
+notification
+	notify
+	msg sent
+	msg delevered
+	msg read
+
+user
+	login and register via mobile
+	otp send
+
+	schema:
+		users - table
+			mobileno
+			first name
+			lastname
+			profile pic
+			otp
+			created_at

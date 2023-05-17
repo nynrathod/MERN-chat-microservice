@@ -1,0 +1,16 @@
+{
+  "name": "micro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd api-gateway && npm start\" \"cd chat && npm start\" \"cd user && npm start\" \"cd client && npm run dev \"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
